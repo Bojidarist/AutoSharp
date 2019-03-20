@@ -1,6 +1,4 @@
-﻿using AutoSharpLibrary;
-
-namespace AutoSharpConsoleUI
+﻿namespace AutoSharpConsoleUI
 {
     class Bootstrap
     {
@@ -14,8 +12,9 @@ namespace AutoSharpConsoleUI
             }
 
             // Test
-            string input = "2*5*5{Divide}5*5*5{Enter}";
-            AutoSharpKeyboardInput.SendKeyboardInputToWindow(input, "Calculator", 1000);
+            QuickTests.MouseInputTest(120, 5, 1000);
+
+            System.Console.WriteLine("Done");
         }
     }
 }
