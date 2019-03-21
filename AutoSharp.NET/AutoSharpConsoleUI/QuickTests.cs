@@ -1,4 +1,5 @@
 ﻿using AutoSharpLibrary;
+using System;
 
 namespace AutoSharpConsoleUI
 {
@@ -14,8 +15,15 @@ namespace AutoSharpConsoleUI
         {
             //AutoSharpMouseInput.LeftMouseButtonClick(250, 360, 200, 5);
             //AutoSharpMouseInput.LeftMouseButtonDown(250, 360, 1000);
+            AutoSharpMouseInput.LeftMouseButtonClick(x, y, delay);
+            Console.ReadKey();
+            AutoSharpMouseInput.RightMouseButtonClick();
+            Console.ReadKey();
+            AutoSharpMouseInput.MiddleMouseButtonClick();
+            Console.ReadKey();
+            AutoSharpMouseInput.MouseWheelScroll(50);
 
-            AutoSharpMouseInput.MouseWheelScroll(x, y, delay);
+            //AutoSharpMouseInput.MouseWheelScroll(x, y, delay);
         }
     }
 }
