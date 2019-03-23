@@ -44,8 +44,13 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AutoSharpKeyboardInput.cs" />
-    <Compile Include="AutoSharpMouseInput.cs" />
-    <Compile Include="MouseKeyFlags.cs" />
+    <Compile Include="AutoSharpMouse\MouseButtons\MouseWheelInput.cs" />
+    <Compile Include="AutoSharpMouse\CursorInput.cs" />
+    <Compile Include="AutoSharpMouse\MouseButtons\LeftMouseButtonInput.cs" />
+    <Compile Include="AutoSharpMouse\MouseButtons\MiddleMouseButtonInput.cs" />
+    <Compile Include="AutoSharpMouse\MouseInputChecks.cs" />
+    <Compile Include="AutoSharpMouse\MouseButtons\RightMouseButtonInput.cs" />
+    <Compile Include="AutoSharpMouse\MouseKeyFlags.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="WindowManagement.cs" />
   </ItemGroup>

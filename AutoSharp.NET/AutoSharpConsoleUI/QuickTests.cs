@@ -1,5 +1,5 @@
 ﻿using AutoSharpLibrary;
-using System;
+using AutoSharpLibrary.AutoSharpMouse;
 
 namespace AutoSharpConsoleUI
 {
@@ -11,19 +11,13 @@ namespace AutoSharpConsoleUI
             AutoSharpKeyboardInput.SendKeyboardInputToWindow(input, "Calculator", 1000);
         }
 
-        public static void MouseInputTest(int x, int y, int delay)
+        public static void MouseInputTest(int x = 0, int y = 0, int delay = 0)
         {
-            //AutoSharpMouseInput.LeftMouseButtonClick(250, 360, 200, 5);
-            //AutoSharpMouseInput.LeftMouseButtonDown(250, 360, 1000);
-            AutoSharpMouseInput.LeftMouseButtonClick(x, y, delay);
-            Console.ReadKey();
-            AutoSharpMouseInput.RightMouseButtonClick();
-            Console.ReadKey();
-            AutoSharpMouseInput.MiddleMouseButtonClick();
-            Console.ReadKey();
-            AutoSharpMouseInput.MouseWheelScroll(50);
-
-            //AutoSharpMouseInput.MouseWheelScroll(x, y, delay);
+            //CursorInput.GetCursorPos();
+            //LeftMouseButtonInput.LeftMouseButtonClick();
+            //RightMouseButtonInput.RightMouseButtonClick();
+            //MiddleMouseButtonInput.MiddleMouseButtonClick();
+            MouseWheelInput.MouseWheelScroll(120, 5, 500);
         }
     }
 }

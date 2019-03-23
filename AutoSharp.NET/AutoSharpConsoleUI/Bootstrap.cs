@@ -12,7 +12,7 @@
             }
 
             // Test
-            QuickTests.MouseInputTest(0, 0, 1000);
+            QuickTests.MouseInputTest();
 
             System.Console.WriteLine("Done");
         }

@@ -1,4 +1,4 @@
-﻿namespace AutoSharpLibrary
+﻿namespace AutoSharpLibrary.AutoSharpMouse
 {
     public struct MouseKeyFlags
     {
