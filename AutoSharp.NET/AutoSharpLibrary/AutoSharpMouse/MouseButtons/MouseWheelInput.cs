@@ -1,14 +1,10 @@
 ﻿using System;
-using System.Runtime.InteropServices;
 using System.Threading;
 
 namespace AutoSharpLibrary.AutoSharpMouse
 {
     public class MouseWheelInput
     {
-        [DllImport("User32.dll")]
-        private static extern void mouse_event(int dwFlags, int dx, int dy, int dwData, IntPtr dwExtraInfo);
-
         #region MouseWheel
         // Mouse Wheel
         /// <summary>
@@ -21,7 +17,7 @@ namespace AutoSharpLibrary.AutoSharpMouse
         {
             for (int i = 0; i < numberOfScrolls; i++)
             {
-                mouse_event(MouseKeyFlags.MOUSEEVENTF_WHEEL, MouseKeyFlags.MOUSEEVENTF_ABSOLUTE,
+                AutoMouseEvent.MouseEvent(MouseKeyFlags.MOUSEEVENTF_WHEEL, MouseKeyFlags.MOUSEEVENTF_ABSOLUTE,
                     MouseKeyFlags.MOUSEEVENTF_ABSOLUTE, amount, IntPtr.Zero);
 
                 Thread.Sleep(millisecondDelay);

@@ -17,7 +17,8 @@ namespace AutoSharpConsoleUI
             //LeftMouseButtonInput.LeftMouseButtonClick();
             //RightMouseButtonInput.RightMouseButtonClick();
             //MiddleMouseButtonInput.MiddleMouseButtonClick();
-            MouseWheelInput.MouseWheelScroll(120, 5, 500);
+            //MouseWheelInput.MouseWheelScroll(120, 5, 500);
+            AutoMouseEvent.MouseEvent(MouseKeyFlags.MOUSEEVENTF_LEFTDOWN, 0, 0, 0, System.IntPtr.Zero);
         }
     }
 }

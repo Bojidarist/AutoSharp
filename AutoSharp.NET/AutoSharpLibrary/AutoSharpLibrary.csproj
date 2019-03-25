@@ -44,6 +44,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AutoSharpKeyboardInput.cs" />
+    <Compile Include="AutoSharpMouse\AutoMouseEvent.cs" />
     <Compile Include="AutoSharpMouse\MouseButtons\MouseWheelInput.cs" />
     <Compile Include="AutoSharpMouse\CursorInput.cs" />
     <Compile Include="AutoSharpMouse\MouseButtons\LeftMouseButtonInput.cs" />
