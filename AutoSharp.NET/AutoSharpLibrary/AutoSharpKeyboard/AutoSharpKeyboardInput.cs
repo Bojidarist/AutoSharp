@@ -2,7 +2,7 @@
 using System.Threading;
 using System.Windows.Forms;
 
-namespace AutoSharpLibrary
+namespace AutoSharpLibrary.AutoSharpKeyboard
 {
     public class AutoSharpKeyboardInput
     {

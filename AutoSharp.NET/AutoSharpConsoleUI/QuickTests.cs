@@ -1,4 +1,5 @@
 ﻿using AutoSharpLibrary;
+using AutoSharpLibrary.AutoSharpKeyboard;
 using AutoSharpLibrary.AutoSharpMouse;
 
 namespace AutoSharpConsoleUI
