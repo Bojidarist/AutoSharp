@@ -16,9 +16,22 @@ namespace AutoSharpLibrary.AutoSharpMouse
         /// <param name="dy">The mouse's absolute position along the y-axis or its amount of motion since the last mouse event was generated.</param>
         /// <param name="dwData">If mouseKeyFlag is not MOUSEEVENTF_WHEEL, MOUSEEVENTF_XDOWN, or MOUSEEVENTF_XUP, then dwData should be zero.</param>
         /// <param name="dwExtraInfo">An additional value associated with the mouse event.</param>
+        public static void MouseEvent(int mouseKeyFlag, int dx = 0, int dy = 0, int dwData = 0, int dwExtraInfo = 0)
+        {
+            mouse_event(mouseKeyFlag, dx, dy, dwData, (IntPtr)dwExtraInfo);
+        }
+
+        /// <summary>
+        /// Synthesizes mouse motion and button clicks.
+        /// </summary>
+        /// <param name="mouseKeyFlag">Mouse key flag.</param>
+        /// <param name="dx">The mouse's absolute position along the x-axis or its amount of motion since the last mouse event was generated.</param>
+        /// <param name="dy">The mouse's absolute position along the y-axis or its amount of motion since the last mouse event was generated.</param>
+        /// <param name="dwData">If mouseKeyFlag is not MOUSEEVENTF_WHEEL, MOUSEEVENTF_XDOWN, or MOUSEEVENTF_XUP, then dwData should be zero.</param>
+        /// <param name="dwExtraInfo">An additional value associated with the mouse event.</param>
         public static void MouseEvent(int mouseKeyFlag, int dx, int dy, int dwData, IntPtr dwExtraInfo)
         {
-            mouse_event(mouseKeyFlag, dx, dy, dwData, dwExtraInfo);
+            mouse_event(mouseKeyFlag, dx, dy, dwData, (IntPtr)dwExtraInfo);
         }
     }
 }

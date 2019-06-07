@@ -12,7 +12,8 @@
             }
 
             // Test
-            QuickTests.MouseInputTest();
+            QuickTests.KeyboardInputTest();
+            //QuickTests.MouseInputTest();
 
             System.Console.WriteLine("Done");
         }

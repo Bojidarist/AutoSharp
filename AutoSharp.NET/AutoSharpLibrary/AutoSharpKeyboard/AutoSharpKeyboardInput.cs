@@ -1,4 +1,6 @@
-﻿using System.Text;
+﻿using System;
+using System.Runtime.InteropServices;
+using System.Text;
 using System.Threading;
 using System.Windows.Forms;
 
@@ -6,6 +8,16 @@ namespace AutoSharpLibrary.AutoSharpKeyboard
 {
     public class AutoSharpKeyboardInput
     {
+        #region KeyboardEvent
+        [DllImport("User32.dll")]
+        private static extern void keybd_event(byte keyCode, byte bScan, int dwFlags, IntPtr dwExtraInfo);
+      
+        public static void KeyboardEvent(KeyboardKeyCodes keyCode, byte bScan = 0, int dwFlags = 0, int dwExtraInfo = 0)
+        {
+            keybd_event((byte)keyCode, bScan, dwFlags, (IntPtr)dwExtraInfo);
+        }
+        #endregion
+
         #region SendKeyboardInput
         /// <summary>
         /// Sends keyboard input.
