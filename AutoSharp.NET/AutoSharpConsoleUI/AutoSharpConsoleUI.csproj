@@ -53,7 +53,7 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\AutoSharpLibrary\AutoSharp.csproj">
+    <ProjectReference Include="..\AutoSharp\AutoSharp.csproj">
       <Project>{af08812f-e4de-4aa4-8d48-00fe45d22ce9}</Project>
       <Name>AutoSharp</Name>
     </ProjectReference>
