@@ -1,6 +1,6 @@
 ﻿namespace AutoSharpLibrary.AutoSharpMouse
 {
-    public class MiddleMouseButtonInput
+    class MiddleMouseButtonInput
     {
         #region MiddleMouseButton
         // Middle Button

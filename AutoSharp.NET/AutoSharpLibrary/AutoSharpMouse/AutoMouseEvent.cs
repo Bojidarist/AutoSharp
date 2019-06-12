@@ -3,7 +3,7 @@ using System.Runtime.InteropServices;
 
 namespace AutoSharpLibrary.AutoSharpMouse
 {
-    public class AutoMouseEvent
+    class AutoMouseEvent
     {
         [DllImport("User32.dll")]
         private static extern void mouse_event(int dwFlags, int dx, int dy, int dwData, IntPtr dwExtraInfo);
@@ -16,9 +16,9 @@ namespace AutoSharpLibrary.AutoSharpMouse
         /// <param name="dy">The mouse's absolute position along the y-axis or its amount of motion since the last mouse event was generated.</param>
         /// <param name="dwData">If mouseKeyFlag is not MOUSEEVENTF_WHEEL, MOUSEEVENTF_XDOWN, or MOUSEEVENTF_XUP, then dwData should be zero.</param>
         /// <param name="dwExtraInfo">An additional value associated with the mouse event.</param>
-        public static void MouseEvent(int mouseKeyFlag, int dx = 0, int dy = 0, int dwData = 0, int dwExtraInfo = 0)
+        public static void MouseEvent(MouseKeyFlags mouseKeyFlag, int dx = 0, int dy = 0, int dwData = 0, int dwExtraInfo = 0)
         {
-            mouse_event(mouseKeyFlag, dx, dy, dwData, (IntPtr)dwExtraInfo);
+            mouse_event((int)mouseKeyFlag, dx, dy, dwData, (IntPtr)dwExtraInfo);
         }
 
         /// <summary>
@@ -31,7 +31,7 @@ namespace AutoSharpLibrary.AutoSharpMouse
         /// <param name="dwExtraInfo">An additional value associated with the mouse event.</param>
         public static void MouseEvent(int mouseKeyFlag, int dx, int dy, int dwData, IntPtr dwExtraInfo)
         {
-            mouse_event(mouseKeyFlag, dx, dy, dwData, (IntPtr)dwExtraInfo);
+            mouse_event(mouseKeyFlag, dx, dy, dwData, dwExtraInfo);
         }
     }
 }

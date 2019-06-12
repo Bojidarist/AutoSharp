@@ -6,7 +6,7 @@ using System.Windows.Forms;
 
 namespace AutoSharpLibrary.AutoSharpKeyboard
 {
-    public class AutoSharpKeyboardInput
+    class AutoSharpKeyboardInput
     {
         #region KeyboardEvent
         [DllImport("User32.dll")]

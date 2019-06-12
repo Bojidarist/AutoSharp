@@ -3,7 +3,7 @@ using System.Threading;
 
 namespace AutoSharpLibrary.AutoSharpMouse
 {
-    public class MouseWheelInput
+    class MouseWheelInput
     {
         #region MouseWheel
         // Mouse Wheel
@@ -17,8 +17,7 @@ namespace AutoSharpLibrary.AutoSharpMouse
         {
             for (int i = 0; i < numberOfScrolls; i++)
             {
-                AutoMouseEvent.MouseEvent(MouseKeyFlags.MOUSEEVENTF_WHEEL, MouseKeyFlags.MOUSEEVENTF_ABSOLUTE,
-                    MouseKeyFlags.MOUSEEVENTF_ABSOLUTE, amount, IntPtr.Zero);
+                AutoMouseEvent.MouseEvent(MouseKeyFlags.MOUSEEVENTF_WHEEL, dwData:amount);
 
                 Thread.Sleep(millisecondDelay);
             }

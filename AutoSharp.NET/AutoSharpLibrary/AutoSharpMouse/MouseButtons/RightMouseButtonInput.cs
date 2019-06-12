@@ -1,6 +1,6 @@
 ﻿namespace AutoSharpLibrary.AutoSharpMouse
 {
-    public class RightMouseButtonInput
+    class RightMouseButtonInput
     {
         #region RightMouseButton
         // Right Button

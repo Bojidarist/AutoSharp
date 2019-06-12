@@ -4,7 +4,7 @@ using System.Windows.Forms;
 
 namespace AutoSharpLibrary.AutoSharpMouse
 {
-    public class CursorInput
+    class CursorInput
     {
         #region Cursor
         /// <summary>
@@ -18,7 +18,7 @@ namespace AutoSharpLibrary.AutoSharpMouse
         /// <summary>
         /// Gets the current cursor position. (Using System.Drawing)
         /// </summary>
-        public static Point GetCursorPos() { return Cursor.Position; }
+        public static CursorCoordinates GetCursorPos() { return new CursorCoordinates(Cursor.Position.X, Cursor.Position.Y); }
         #endregion
     }
 }

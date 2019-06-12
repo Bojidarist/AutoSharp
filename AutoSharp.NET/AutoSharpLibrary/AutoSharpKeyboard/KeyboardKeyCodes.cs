@@ -1,4 +1,4 @@
-﻿namespace AutoSharpLibrary.AutoSharpKeyboard
+﻿namespace AutoSharpLibrary
 {
     public enum KeyboardKeyCodes : byte
     {

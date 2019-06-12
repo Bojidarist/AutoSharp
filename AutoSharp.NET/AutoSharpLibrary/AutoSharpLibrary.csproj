@@ -46,6 +46,7 @@
     <Compile Include="AutoSharpKeyboard\AutoSharpKeyboardInput.cs" />
     <Compile Include="AutoSharpKeyboard\KeyboardKeyCodes.cs" />
     <Compile Include="AutoSharpMouse\AutoMouseEvent.cs" />
+    <Compile Include="AutoSharpMouse\CursorCoordinates.cs" />
     <Compile Include="AutoSharpMouse\MouseButtons\MouseWheelInput.cs" />
     <Compile Include="AutoSharpMouse\CursorInput.cs" />
     <Compile Include="AutoSharpMouse\MouseButtons\LeftMouseButtonInput.cs" />
@@ -53,6 +54,7 @@
     <Compile Include="AutoSharpMouse\MouseInputChecks.cs" />
     <Compile Include="AutoSharpMouse\MouseButtons\RightMouseButtonInput.cs" />
     <Compile Include="AutoSharpMouse\MouseKeyFlags.cs" />
+    <Compile Include="AutoSharpUI.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="AutoSharpKeyboard\WindowManagement.cs" />
   </ItemGroup>

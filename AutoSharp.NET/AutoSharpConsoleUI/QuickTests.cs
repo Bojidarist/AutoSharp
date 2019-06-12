@@ -1,4 +1,4 @@
-﻿using AutoSharpLibrary.AutoSharpKeyboard;
+﻿using AutoSharpLibrary;
 
 namespace AutoSharpConsoleUI
 {
@@ -8,7 +8,6 @@ namespace AutoSharpConsoleUI
         {
             //string input = "2*5*5{Divide}5*5*5{Enter}";
             //AutoSharpKeyboardInput.SendKeyboardInputToWindow(input, "Calculator", 1000);
-            AutoSharpKeyboardInput.KeyboardEvent(KeyboardKeyCodes.VK_KANJI);
         }
 
         public static void MouseInputTest(int x = 0, int y = 0, int delay = 0)
