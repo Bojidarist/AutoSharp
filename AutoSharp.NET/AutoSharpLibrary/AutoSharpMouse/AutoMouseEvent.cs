@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Runtime.InteropServices;
 
-namespace AutoSharpLibrary.AutoSharpMouse
+namespace AutoSharp.AutoSharpMouse
 {
     class AutoMouseEvent
     {

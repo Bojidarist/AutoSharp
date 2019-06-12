@@ -1,4 +1,4 @@
-﻿namespace AutoSharpLibrary
+﻿namespace AutoSharp
 {
     public enum MouseKeyFlags : int
     {

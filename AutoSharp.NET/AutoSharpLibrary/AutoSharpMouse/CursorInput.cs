@@ -2,7 +2,7 @@
 using System.Runtime.InteropServices;
 using System.Windows.Forms;
 
-namespace AutoSharpLibrary.AutoSharpMouse
+namespace AutoSharp.AutoSharpMouse
 {
     class CursorInput
     {

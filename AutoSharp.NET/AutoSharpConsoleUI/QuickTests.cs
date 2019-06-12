@@ -1,4 +1,4 @@
-﻿using AutoSharpLibrary;
+﻿using AutoSharp;
 
 namespace AutoSharpConsoleUI
 {

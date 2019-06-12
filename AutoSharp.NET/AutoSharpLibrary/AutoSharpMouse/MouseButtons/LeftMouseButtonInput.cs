@@ -1,4 +1,4 @@
-﻿namespace AutoSharpLibrary.AutoSharpMouse
+﻿namespace AutoSharp.AutoSharpMouse
 {
     class LeftMouseButtonInput
     {

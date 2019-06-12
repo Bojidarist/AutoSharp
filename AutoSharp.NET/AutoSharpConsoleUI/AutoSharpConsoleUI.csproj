@@ -53,9 +53,9 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\AutoSharpLibrary\AutoSharpLibrary.csproj">
+    <ProjectReference Include="..\AutoSharpLibrary\AutoSharp.csproj">
       <Project>{af08812f-e4de-4aa4-8d48-00fe45d22ce9}</Project>
-      <Name>AutoSharpLibrary</Name>
+      <Name>AutoSharp</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

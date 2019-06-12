@@ -2,7 +2,7 @@
 using System.Diagnostics;
 using System.Runtime.InteropServices;
 
-namespace AutoSharpLibrary.AutoSharpKeyboard
+namespace AutoSharp.AutoSharpKeyboard
 {
     class WindowManagement
     {

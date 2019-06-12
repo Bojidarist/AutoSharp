@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Threading;
 
-namespace AutoSharpLibrary.AutoSharpMouse
+namespace AutoSharp.AutoSharpMouse
 {
     class MouseInputChecks
     {

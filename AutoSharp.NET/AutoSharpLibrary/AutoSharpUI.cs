@@ -1,7 +1,7 @@
-﻿using AutoSharpLibrary.AutoSharpMouse;
+﻿using AutoSharp.AutoSharpMouse;
 using System;
 
-namespace AutoSharpLibrary
+namespace AutoSharp
 {
     public class AutoSharpUI
     {
@@ -35,76 +35,76 @@ namespace AutoSharpLibrary
 
         public static CursorCoordinates GetMouseCursorPos()
         {
-            return AutoSharpMouse.CursorInput.GetCursorPos();
+            return CursorInput.GetCursorPos();
         }
         #endregion
 
         #region Mouse
         public static void MouseEvent(MouseKeyFlags mouseKeyFlag, int dx = 0, int dy = 0, int dwData = 0, int dwExtraInfo = 0)
         {
-            AutoSharpMouse.AutoMouseEvent.MouseEvent(mouseKeyFlag, dx, dy, dwData, dwExtraInfo);
+            AutoMouseEvent.MouseEvent(mouseKeyFlag, dx, dy, dwData, dwExtraInfo);
         }
 
         public static void MouseEvent(int mouseKeyFlag, int dx, int dy, int dwData, IntPtr dwExtraInfo)
         {
-            AutoSharpMouse.AutoMouseEvent.MouseEvent(mouseKeyFlag, dx, dy, dwData, dwExtraInfo);
+            AutoMouseEvent.MouseEvent(mouseKeyFlag, dx, dy, dwData, dwExtraInfo);
         }
 
         #region Left Button
         public static void LeftMouseButtonClick(int x = 0, int y = 0, int millisecondClickDelay = 0, int numberOfClicks = 1)
         {
-            AutoSharpMouse.LeftMouseButtonInput.LeftMouseButtonClick(x, y, millisecondClickDelay, numberOfClicks);
+            LeftMouseButtonInput.LeftMouseButtonClick(x, y, millisecondClickDelay, numberOfClicks);
         }
 
         public static void LeftMouseButtonDown(int x = 0, int y = 0, int millisecondClickDelay = 0, int numberOfClicks = 1)
         {
-            AutoSharpMouse.LeftMouseButtonInput.LeftMouseButtonDown(x, y, millisecondClickDelay);
+            LeftMouseButtonInput.LeftMouseButtonDown(x, y, millisecondClickDelay);
         }
 
         public static void LeftMouseButtonUp(int x = 0, int y = 0, int millisecondClickDelay = 0, int numberOfClicks = 1)
         {
-            AutoSharpMouse.LeftMouseButtonInput.LeftMouseButtonUp(x, y, millisecondClickDelay);
+            LeftMouseButtonInput.LeftMouseButtonUp(x, y, millisecondClickDelay);
         }
         #endregion
 
         #region Right Button
         public static void RightMouseButtonClick(int x = 0, int y = 0, int millisecondClickDelay = 0, int numberOfClicks = 1)
         {
-            AutoSharpMouse.RightMouseButtonInput.RightMouseButtonClick(x, y, millisecondClickDelay, numberOfClicks);
+            RightMouseButtonInput.RightMouseButtonClick(x, y, millisecondClickDelay, numberOfClicks);
         }
 
         public static void RightMouseButtonDown(int x = 0, int y = 0, int millisecondClickDelay = 0, int numberOfClicks = 1)
         {
-            AutoSharpMouse.RightMouseButtonInput.RightMouseButtonDown(x, y, millisecondClickDelay);
+            RightMouseButtonInput.RightMouseButtonDown(x, y, millisecondClickDelay);
         }
 
         public static void RightMouseButtonUp(int x = 0, int y = 0, int millisecondClickDelay = 0, int numberOfClicks = 1)
         {
-            AutoSharpMouse.RightMouseButtonInput.RightMouseButtonUp(x, y, millisecondClickDelay);
+            RightMouseButtonInput.RightMouseButtonUp(x, y, millisecondClickDelay);
         }
         #endregion
 
         #region Middle Button
         public static void MiddleMouseButtonClick(int x = 0, int y = 0, int millisecondClickDelay = 0, int numberOfClicks = 1)
         {
-            AutoSharpMouse.MiddleMouseButtonInput.MiddleMouseButtonClick(x, y, millisecondClickDelay, numberOfClicks);
+            MiddleMouseButtonInput.MiddleMouseButtonClick(x, y, millisecondClickDelay, numberOfClicks);
         }
 
         public static void MiddleMouseButtonDown(int x = 0, int y = 0, int millisecondClickDelay = 0, int numberOfClicks = 1)
         {
-            AutoSharpMouse.MiddleMouseButtonInput.MiddleMouseButtonDown(x, y, millisecondClickDelay);
+            MiddleMouseButtonInput.MiddleMouseButtonDown(x, y, millisecondClickDelay);
         }
 
         public static void MiddleMouseButtonUp(int x = 0, int y = 0, int millisecondClickDelay = 0, int numberOfClicks = 1)
         {
-            AutoSharpMouse.MiddleMouseButtonInput.MiddleMouseButtonUp(x, y, millisecondClickDelay);
+            MiddleMouseButtonInput.MiddleMouseButtonUp(x, y, millisecondClickDelay);
         }
         #endregion
 
         #region Mouse Wheel
         public static void MouseWheelScroll(int amount, int numberOfScrolls = 1, int millisecondDelay = 0)
         {
-            AutoSharpMouse.MouseWheelInput.MouseWheelScroll(amount, numberOfScrolls, millisecondDelay);
+            MouseWheelInput.MouseWheelScroll(amount, numberOfScrolls, millisecondDelay);
         }
         #endregion
 

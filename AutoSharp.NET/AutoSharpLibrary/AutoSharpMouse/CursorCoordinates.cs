@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace AutoSharpLibrary
+namespace AutoSharp
 {
     public class CursorCoordinates
     {
