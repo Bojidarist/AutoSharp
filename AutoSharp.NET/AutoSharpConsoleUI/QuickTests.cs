@@ -1,4 +1,6 @@
-﻿namespace AutoSharpConsoleUI
+﻿using AutoSharp;
+
+namespace AutoSharpConsoleUI
 {
     class QuickTests
     {
@@ -6,7 +8,7 @@
         {
             //string input = "2*5*5{Divide}5*5*5{Enter}";
             //AutoSharpKeyboardInput.SendKeyboardInputToWindow(input, "Calculator", 1000);
-            
+            AutoSharpUI.KeyboardEvent(KeyboardKeyCodes.VK_CAPITAL);
         }
 
         public static void MouseInputTest(int x = 0, int y = 0, int delay = 0)
