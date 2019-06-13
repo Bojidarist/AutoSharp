@@ -6,7 +6,7 @@ namespace AutoSharp
     /// <summary>
     /// The class for automating your UI
     /// </summary>
-    public class AutoSharpUI
+    public static class AutoSharpUI
     {
         #region Keyboard
 
@@ -17,9 +17,9 @@ namespace AutoSharp
         /// <param name="bScan">A hardware scan code for the key</param>
         /// <param name="dwFlags">Controls various aspects of function operation</param>
         /// <param name="dwExtraInfo">An additional value associated with the key stroke</param>
-        public static void KeyboardEvent(KeyboardKeyCodes keyCode, byte bScan = 0, int dwFlags = 0, int dwExtraInfo = 0)
+        public static void KeyboardEvent(KeyboardKeyCodes keyCode, byte bScan = 0, KeyboardEventFlags dwFlags = KeyboardEventFlags.NONE, int dwExtraInfo = 0)
         {
-            AutoSharpKeyboard.AutoSharpKeyboardInput.KeyboardEvent(keyCode, bScan, dwFlags, dwExtraInfo);
+            AutoSharpKeyboard.AutoSharpKeyboardInput.KeyboardEvent(keyCode, bScan, (int)dwFlags, dwExtraInfo);
         }
 
         /// <summary>

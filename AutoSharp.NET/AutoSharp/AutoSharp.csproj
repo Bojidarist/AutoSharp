@@ -50,6 +50,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AutoSharpKeyboard\AutoSharpKeyboardInput.cs" />
+    <Compile Include="AutoSharpKeyboard\KeyboardEventFlags.cs" />
     <Compile Include="AutoSharpKeyboard\KeyboardKeyCodes.cs" />
     <Compile Include="AutoSharpMouse\AutoMouseEvent.cs" />
     <Compile Include="AutoSharpMouse\CursorCoordinates.cs" />

@@ -1,5 +1,8 @@
 ﻿namespace AutoSharp
 {
+    /// <summary>
+    /// Virtual key codes for KeyboardEvent
+    /// </summary>
     public enum KeyboardKeyCodes : byte
     {
         #region Mappable codes
