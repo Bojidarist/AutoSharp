@@ -67,6 +67,8 @@
   <ItemGroup>
     <Content Include="Images\Logo\logo_64x64.png" />
     <Content Include="Images\Logo\logo.png" />
+    <Content Include="Images\Logo\logo_white_background_64x64.png" />
+    <Content Include="Images\Logo\logo_white_background.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

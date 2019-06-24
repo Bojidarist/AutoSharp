@@ -7,6 +7,7 @@
     <authors>Bojidar Qnkov</authors>
     <description>Automation library</description>
     <copyright>Copyright 2019</copyright>
+    <iconUrl>https://raw.githubusercontent.com/Bojidarist/AutoSharp/nuget_pack/AutoSharp.NET/AutoSharp/Images/Logo/logo_64x64.png</iconUrl>
     <projectUrl>https://github.com/Bojidarist/AutoSharp</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
   </metadata>
