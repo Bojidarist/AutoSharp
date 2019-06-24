@@ -7,7 +7,7 @@
     <authors>Bojidar Qnkov</authors>
     <description>AutoSharp is a library that lets you automate your tasks by controlling the mouse and keyboard input.</description>
     <copyright>Copyright 2019</copyright>
-    <iconUrl>https://raw.githubusercontent.com/Bojidarist/AutoSharp/nuget_pack/AutoSharp.NET/AutoSharp/Images/Logo/logo_white_background.png</iconUrl>
+    <iconUrl>https://raw.githubusercontent.com/Bojidarist/AutoSharp/master/AutoSharp.NET/AutoSharp/Images/Logo/logo_white_background.png</iconUrl>
     <projectUrl>https://github.com/Bojidarist/AutoSharp</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
   </metadata>
