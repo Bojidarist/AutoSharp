@@ -133,7 +133,7 @@ namespace AutoSharp
         /// Y cursor position. (If X = 0 or Y = 0 the click will be at current coordinates)
         /// </param>
         /// <param name="millisecondClickDelay">Delay between clicks</param>
-        public static void LeftMouseButtonDown(int x = 0, int y = 0, int millisecondClickDelay = 0, int numberOfClicks = 1)
+        public static void LeftMouseButtonDown(int x = 0, int y = 0, int millisecondClickDelay = 0)
         {
             LeftMouseButtonInput.LeftMouseButtonDown(x, y, millisecondClickDelay);
         }
@@ -148,7 +148,7 @@ namespace AutoSharp
         /// Y cursor position. (If X = 0 or Y = 0 the click will be at current coordinates)
         /// </param>
         /// <param name="millisecondClickDelay">Delay between clicks</param>
-        public static void LeftMouseButtonUp(int x = 0, int y = 0, int millisecondClickDelay = 0, int numberOfClicks = 1)
+        public static void LeftMouseButtonUp(int x = 0, int y = 0, int millisecondClickDelay = 0)
         {
             LeftMouseButtonInput.LeftMouseButtonUp(x, y, millisecondClickDelay);
         }
@@ -182,7 +182,7 @@ namespace AutoSharp
         /// Y cursor position. (If X = 0 or Y = 0 the click will be at current coordinates)
         /// </param>
         /// <param name="millisecondClickDelay">Delay between clicks</param>
-        public static void RightMouseButtonDown(int x = 0, int y = 0, int millisecondClickDelay = 0, int numberOfClicks = 1)
+        public static void RightMouseButtonDown(int x = 0, int y = 0, int millisecondClickDelay = 0)
         {
             RightMouseButtonInput.RightMouseButtonDown(x, y, millisecondClickDelay);
         }
@@ -197,7 +197,7 @@ namespace AutoSharp
         /// Y cursor position. (If X = 0 or Y = 0 the click will be at current coordinates)
         /// </param>
         /// <param name="millisecondClickDelay">Delay between clicks</param>
-        public static void RightMouseButtonUp(int x = 0, int y = 0, int millisecondClickDelay = 0, int numberOfClicks = 1)
+        public static void RightMouseButtonUp(int x = 0, int y = 0, int millisecondClickDelay = 0)
         {
             RightMouseButtonInput.RightMouseButtonUp(x, y, millisecondClickDelay);
         }
@@ -231,7 +231,7 @@ namespace AutoSharp
         /// Y cursor position. (If X = 0 or Y = 0 the click will be at current coordinates)
         /// </param>
         /// <param name="millisecondClickDelay">Delay between clicks</param>
-        public static void MiddleMouseButtonDown(int x = 0, int y = 0, int millisecondClickDelay = 0, int numberOfClicks = 1)
+        public static void MiddleMouseButtonDown(int x = 0, int y = 0, int millisecondClickDelay = 0)
         {
             MiddleMouseButtonInput.MiddleMouseButtonDown(x, y, millisecondClickDelay);
         }
@@ -246,7 +246,7 @@ namespace AutoSharp
         /// Y cursor position. (If X = 0 or Y = 0 the click will be at current coordinates)
         /// </param>
         /// <param name="millisecondClickDelay">Delay between clicks</param>
-        public static void MiddleMouseButtonUp(int x = 0, int y = 0, int millisecondClickDelay = 0, int numberOfClicks = 1)
+        public static void MiddleMouseButtonUp(int x = 0, int y = 0, int millisecondClickDelay = 0)
         {
             MiddleMouseButtonInput.MiddleMouseButtonUp(x, y, millisecondClickDelay);
         }
