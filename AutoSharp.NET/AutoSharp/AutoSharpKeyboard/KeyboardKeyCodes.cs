@@ -332,7 +332,7 @@
         VK_OEM_1 = 0xBA,
 
         /// <summary>
-        /// OEM_102 (> <)
+        /// OEM_102 (>)
         /// </summary>
         VK_OEM_102 = 0xE2,
 
@@ -397,7 +397,7 @@
         VK_OEM_CLEAR = 0xFE,
 
         /// <summary>
-        /// OEM_COMMA (< ,)
+        /// OEM_COMMA (,)
         /// </summary>
         VK_OEM_COMMA = 0xBC,
 

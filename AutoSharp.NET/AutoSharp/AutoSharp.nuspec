@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<package>
+  <metadata>
+    <id>AutoSharp</id>
+    <version>1.0.0</version>
+    <title>AutoSharp</title>
+    <authors>Bojidar Qnkov</authors>
+    <description>Automation library</description>
+    <copyright>Copyright 2019</copyright>
+    <projectUrl>https://github.com/Bojidarist/AutoSharp</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+  </metadata>
+  <files>
+    <file src="bin\Release\AutoSharp.dll" target="lib\Net40" />
+    <file src="bin\Release\AutoSharp.xml" target="lib\Net40" />
+  </files>
+</package>
