@@ -10,6 +10,7 @@
     <iconUrl>https://raw.githubusercontent.com/Bojidarist/AutoSharp/master/AutoSharp.NET/AutoSharp/Images/Logo/logo_white_background.png</iconUrl>
     <projectUrl>https://github.com/Bojidarist/AutoSharp</projectUrl>
     <tags>automation auto sharp ui input mouse keyboard</tags>
+    <license type="expression">MIT</license>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
   </metadata>
   <files>
