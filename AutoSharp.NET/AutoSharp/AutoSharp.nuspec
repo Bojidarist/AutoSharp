@@ -9,6 +9,7 @@
     <copyright>Copyright 2019</copyright>
     <iconUrl>https://raw.githubusercontent.com/Bojidarist/AutoSharp/master/AutoSharp.NET/AutoSharp/Images/Logo/logo_white_background.png</iconUrl>
     <projectUrl>https://github.com/Bojidarist/AutoSharp</projectUrl>
+    <tags>automation auto sharp ui input mouse keyboard</tags>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
   </metadata>
   <files>
